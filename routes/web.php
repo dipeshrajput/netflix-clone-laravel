@@ -2,13 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-|
-*/
+
 Route::get('/ir-overview', 'App\Http\Controllers\ApiController@callApi');
 Route::get('/{lang}/privacy', function($lang){
     App::setlocale($lang);
