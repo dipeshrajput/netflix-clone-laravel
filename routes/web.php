@@ -8,7 +8,6 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
 |
 */
 Route::get('/ir-overview', 'App\Http\Controllers\ApiController@callApi');
